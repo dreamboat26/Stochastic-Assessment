@@ -152,7 +152,7 @@ Description about the Colab notebooks and Huggingface spaces implementation :
 
 ## 🎥 Demo Video
 
-📺 Watch the Demo Video
+![Screen-Recording(1)](https://github.com/user-attachments/assets/7494145c-f374-4ab3-86cf-52f42dac4931)
 
 ---
 
