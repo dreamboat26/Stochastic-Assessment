@@ -1,0 +1,4 @@
+ragatouille
+huggingface_hub
+arxiv==2.1.0
+transformers[torch]<=4.49.0
