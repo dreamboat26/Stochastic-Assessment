@@ -73,18 +73,17 @@ The goal of this project is to **minimize the cognitive overhead of reading rese
 ## 📁 Repository Contents
 
 ```plaintext
-
-├── Layout_PDF_Reader.ipynb                  # Layout-aware text extraction
-├── llama_Parse_final.ipynb                  # Semantic parsing using LLaMA-based models
-├── multi_document_agents_final.ipynb        # Multi-document querying with LLM agent
-├── llamaindex_arxiv_agentic_rag_final.ipynb # ArXiv-aware agent using RAG (bonus)
-├── Images_and_tables_extraction_final.ipynb # Extract tables, charts, figures
-├── requirements.txt                         # Python dependencies
-└── README.md                                # This file
+├── Layout_PDF_Reader.ipynb                        # Layout-aware text extraction
+├── llama_Parse_final.ipynb                        # Semantic parsing using LLaMA-based models
+├── multi_document_agents_final.ipynb              # Multi-document querying with LLM agent
+├── llamaindex_arxiv_agentic_rag_final.ipynb       # ArXiv-aware agent using RAG 
+├── Images_and_tables_extraction_final.ipynb       # Extract tables, charts, figures
+├── requirements.txt                               # Python dependencies
+└── README.md                                      # This file
 ```
 ```plaintext
-├── https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG         # Live demo
-├── https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG/tree/main # Source code (app.py, logic, models, embeddings)
+├── https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG               # Live demo
+├── https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG/tree/main     # Source code (app.py, logic, models, embeddings)
 ```
 ---
 
@@ -144,10 +143,6 @@ Description about the Colab notebooks and Huggingface spaces implementation :
 - Retrieves relevant abstracts
 - Feeds those abstracts into a lightweight LLM like Mistral 7B Instruct or Gemma 7B via HF inference API
 - Returns a grounded answer with citations
-
-🔗 [Live: Arxiv‑CS‑RAG on Hugging Face Spaces](https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG)  
-📂 [Source: View Space Code](https://huggingface.co/spaces/darth15vader/Arxiv-CS-RAG/tree/main)
-
 ---
 
 ## 🎥 Demo Video
